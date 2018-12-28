@@ -1,0 +1,170 @@
+No.     Time           Source                Destination           Protocol Length Info
+   4322 6.535574       10.112.22.231         211.64.142.5          DNS      73     Standard query 0x218e AAAA pan.baidu.com
+
+Frame 4322: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 58433, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+   4392 6.637336       211.64.142.5          10.112.22.231         DNS      102    Standard query response 0x218e AAAA pan.baidu.com CNAME yiyun.n.shifen.com
+
+Frame 4392: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 58433
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7200 8.905832       10.112.22.231         211.64.142.5          DNS      80     Standard query 0x687d AAAA update.pan.baidu.com
+
+Frame 7200: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 52497, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7256 9.008607       211.64.142.5          10.112.22.231         DNS      114    Standard query response 0x687d AAAA update.pan.baidu.com CNAME update.pan.n.shifen.com
+
+Frame 7256: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 52497
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7267 9.012801       10.112.22.231         211.64.142.5          DNS      83     Standard query 0x154e A report.jomoce.baidu.com
+
+Frame 7267: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 50746, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7268 9.013573       10.112.22.231         211.64.142.5          DNS      83     Standard query 0xf7fb AAAA report.jomoce.baidu.com
+
+Frame 7268: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 56011, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7323 9.100418       211.64.142.5          10.112.22.231         DNS      534    Standard query response 0x154e A report.jomoce.baidu.com A 115.239.211.179 A 180.97.104.59 NS a.root-servers.net NS d.root-servers.net NS c.root-servers.net NS j.root-servers.net NS b.root-servers.net NS h.root-servers.net NS g.root-servers.net NS e.root-servers.net NS f.root-servers.net NS l.root-servers.net NS i.root-servers.net NS k.root-servers.net NS m.root-servers.net A 192.36.148.17 A 202.12.27.33 A 192.112.36.4 A 199.7.83.42 A 198.97.190.53 A 199.7.91.13 A 192.228.79.201 A 192.203.230.10 A 198.41.0.4 A 193.0.14.129 A 192.58.128.30 A 192.33.4.12 A 192.5.5.241
+
+Frame 7323: 534 bytes on wire (4272 bits), 534 bytes captured (4272 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 50746
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+   7344 9.125260       211.64.142.5          10.112.22.231         DNS      83     Standard query response 0xf7fb AAAA report.jomoce.baidu.com
+
+Frame 7344: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 56011
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17428 29.891011      10.112.22.231         211.64.142.5          DNS      85     Standard query 0x42cc A 5.142.64.211.in-addr.arpa
+
+Frame 17428: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 57121, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17456 29.998310      211.64.142.5          10.112.22.231         DNS      148    Standard query response 0x42cc No such name A 5.142.64.211.in-addr.arpa SOA dns17.ouc.edu.cn
+
+Frame 17456: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 57121
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17465 30.020924      10.112.22.231         211.64.142.5          DNS      85     Standard query 0x0001 PTR 5.142.64.211.in-addr.arpa
+
+Frame 17465: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 56012, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17516 30.124554      211.64.142.5          10.112.22.231         DNS      148    Standard query response 0x0001 No such name PTR 5.142.64.211.in-addr.arpa SOA dns17.ouc.edu.cn
+
+Frame 17516: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 56012
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17565 30.200075      10.112.22.231         211.64.142.5          DNS      70     Standard query 0x893c A ouc.edu.cn
+
+Frame 17565: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 58737, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17660 30.325553      10.112.22.231         219.147.1.66          DNS      70     Standard query 0x893c A ouc.edu.cn
+
+Frame 17660: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 58737, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17661 30.330281      10.112.22.231         211.64.142.5          DNS      70     Standard query 0x0002 NS ouc.edu.cn
+
+Frame 17661: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 57122, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17711 30.420876      219.147.1.66          10.112.22.231         DNS      123    Standard query response 0x893c A ouc.edu.cn SOA dns17.ouc.edu.cn
+
+Frame 17711: 123 bytes on wire (984 bits), 123 bytes captured (984 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 58737
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+  17712 30.422722      211.64.142.5          10.112.22.231         DNS      174    Standard query response 0x0002 NS ouc.edu.cn NS dns2.ouc.edu.cn NS dns.ouc.edu.cn NS dns3.ouc.edu.cn A 211.64.144.130 A 211.64.142.7 A 211.64.142.6
+
+Frame 17712: 174 bytes on wire (1392 bits), 174 bytes captured (1392 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 57122
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+  19629 35.116362      10.112.22.231         211.64.142.5          DNS      84     Standard query 0x8f2c A win10.ipv6.microsoft.com
+
+Frame 19629: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.22.231, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 58306, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+  19681 35.194125      211.64.142.5          10.112.22.231         DNS      551    Standard query response 0x8f2c A win10.ipv6.microsoft.com CNAME onpremwindows.ipv6.microsoft.com.akadns.net CNAME onprembn11.ipv6.microsoft.com.akadns.net A 157.56.106.184 NS a13-130.akadns.org NS a3-129.akadns.net NS a9-128.akadns.net NS a5-130.akadns.org NS a1-128.akadns.net NS a28-129.akadns.org NS a18-128.akadns.org NS a7-131.akadns.net NS a11-129.akadns.net NS a12-131.akadns.org A 96.7.49.129 A 23.61.199.131 A 84.53.139.129 A 193.108.88.128 A 184.85.248.128 A 95.100.168.130 A 2.22.230.130 A 95.100.173.129 A 184.26.160.131
+
+Frame 19681: 551 bytes on wire (4408 bits), 551 bytes captured (4408 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.22.231
+User Datagram Protocol, Src Port: 53, Dst Port: 58306
+Domain Name System (response)

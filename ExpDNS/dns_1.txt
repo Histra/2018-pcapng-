@@ -1,0 +1,746 @@
+No.     Time           Source                Destination           Protocol Length Info
+     45 12.462177      10.112.218.104        211.64.142.5          DNS      73     Standard query 0xd384 A www.baidu.com
+
+Frame 45: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 60886, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 12.465515      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x7ffc AAAA www.baidu.com
+
+Frame 46: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 59051, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 12.471712      211.64.142.5          10.112.218.104        DNS      551    Standard query response 0xd384 A www.baidu.com CNAME www.a.shifen.com A 111.13.100.92 A 111.13.100.91 NS d.root-servers.net NS m.root-servers.net NS h.root-servers.net NS j.root-servers.net NS a.root-servers.net NS i.root-servers.net NS g.root-servers.net NS k.root-servers.net NS e.root-servers.net NS l.root-servers.net NS b.root-servers.net NS f.root-servers.net NS c.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 47: 551 bytes on wire (4408 bits), 551 bytes captured (4408 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 60886
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 12.482866      211.64.142.5          10.112.218.104        DNS      100    Standard query response 0x7ffc AAAA www.baidu.com CNAME www.a.shifen.com
+
+Frame 48: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 59051
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 20.600306      10.112.218.104        211.64.142.5          DNS      84     Standard query 0xecd6 A win10.ipv6.microsoft.com
+
+Frame 75: 84 bytes on wire (672 bits), 84 bytes captured (672 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53111, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 20.636112      211.64.142.5          10.112.218.104        DNS      551    Standard query response 0xecd6 A win10.ipv6.microsoft.com CNAME onpremwindows.ipv6.microsoft.com.akadns.net CNAME onprembn11.ipv6.microsoft.com.akadns.net A 157.56.106.184 NS a7-131.akadns.net NS a12-131.akadns.org NS a5-130.akadns.org NS a18-128.akadns.org NS a9-128.akadns.net NS a1-128.akadns.net NS a28-129.akadns.org NS a3-129.akadns.net NS a13-130.akadns.org NS a11-129.akadns.net A 96.7.49.129 A 23.61.199.131 A 84.53.139.129 A 193.108.88.128 A 184.85.248.128 A 95.100.168.130 A 2.22.230.130 A 95.100.173.129 A 184.26.160.131
+
+Frame 76: 551 bytes on wire (4408 bits), 551 bytes captured (4408 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53111
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 54.891558      10.112.218.104        219.147.1.66          DNS      87     Standard query 0xb515 A safebrowsing.googleapis.com
+
+Frame 206: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53123, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 54.892309      10.112.218.104        219.147.1.66          DNS      87     Standard query 0xff3e AAAA safebrowsing.googleapis.com
+
+Frame 207: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53124, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 54.921137      219.147.1.66          10.112.218.104        DNS      119    Standard query response 0xb515 A safebrowsing.googleapis.com A 203.208.40.66 A 203.208.40.69
+
+Frame 208: 119 bytes on wire (952 bits), 119 bytes captured (952 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53123
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 54.921138      219.147.1.66          10.112.218.104        DNS      535    Standard query response 0xff3e AAAA safebrowsing.googleapis.com AAAA 2a00:1450:4013:c02::5f AAAA 2607:f8b0:4001:c1d::5f AAAA 2a00:1450:4010:c01::5f AAAA 2404:6800:4003:c00::5f AAAA 2a00:1450:400c:c0b::5f AAAA 2607:f8b0:4003:c15::5f AAAA 2607:f8b0:400c:c08::5f AAAA 2a00:1450:400e:807::200a AAAA 2607:f8b0:4002:c03::5f AAAA 2a00:1450:400e:806::200a AAAA 2a00:1450:400e:800::200a AAAA 2404:6800:4008:c02::5f AAAA 2a00:1450:400e:80a::200a AAAA 2a00:1450:400e:801::200a AAAA 2607:f8b0:400e:c04::5f AAAA 2a00:1450:400e:809::200a
+
+Frame 209: 535 bytes on wire (4280 bits), 535 bytes captured (4280 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53124
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    237 56.036620      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x5fcd A www.baidu.com
+
+Frame 237: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53126, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    238 56.037265      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x009d AAAA www.baidu.com
+
+Frame 238: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53127, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    239 56.045315      219.147.1.66          10.112.218.104        DNS      132    Standard query response 0x5fcd A www.baidu.com CNAME www.a.shifen.com A 115.239.210.27 A 115.239.211.112
+
+Frame 239: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53126
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    240 56.045315      219.147.1.66          10.112.218.104        DNS      100    Standard query response 0x009d AAAA www.baidu.com CNAME www.a.shifen.com
+
+Frame 240: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53127
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    311 56.189807      10.112.218.104        219.147.1.66          DNS      76     Standard query 0xcc14 A ss1.bdstatic.com
+
+Frame 311: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53128, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    312 56.190591      10.112.218.104        219.147.1.66          DNS      76     Standard query 0x2a62 AAAA ss1.bdstatic.com
+
+Frame 312: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53129, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    314 56.201437      10.112.218.104        219.147.1.66          DNS      75     Standard query 0x0e39 A b1.bdstatic.com
+
+Frame 314: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53130, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    315 56.202170      10.112.218.104        219.147.1.66          DNS      75     Standard query 0x743c AAAA b1.bdstatic.com
+
+Frame 315: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53131, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    316 56.203000      10.112.218.104        219.147.1.66          DNS      75     Standard query 0x52cc A s1.bdstatic.com
+
+Frame 316: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53132, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    317 56.203498      219.147.1.66          10.112.218.104        DNS      126    Standard query response 0xcc14 A ss1.bdstatic.com CNAME sslbdstatic.jomodns.com A 150.138.250.32
+
+Frame 317: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53128
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    318 56.203499      219.147.1.66          10.112.218.104        DNS      110    Standard query response 0x2a62 AAAA ss1.bdstatic.com CNAME sslbdstatic.jomodns.com
+
+Frame 318: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53129
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    319 56.203783      10.112.218.104        219.147.1.66          DNS      75     Standard query 0x9a80 AAAA s1.bdstatic.com
+
+Frame 319: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53133, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    320 56.204626      10.112.218.104        219.147.1.66          DNS      72     Standard query 0x1f20 A t1.baidu.com
+
+Frame 320: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53134, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    321 56.205470      10.112.218.104        219.147.1.66          DNS      72     Standard query 0x539d AAAA t1.baidu.com
+
+Frame 321: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53135, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    327 56.212152      219.147.1.66          10.112.218.104        DNS      122    Standard query response 0x52cc A s1.bdstatic.com CNAME wwwbaidu.jomodns.com A 150.138.250.40
+
+Frame 327: 122 bytes on wire (976 bits), 122 bytes captured (976 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53132
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    328 56.212153      219.147.1.66          10.112.218.104        DNS      104    Standard query response 0x743c AAAA b1.bdstatic.com CNAME base64.jomodns.com
+
+Frame 328: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53131
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    329 56.212154      219.147.1.66          10.112.218.104        DNS      120    Standard query response 0x0e39 A b1.bdstatic.com CNAME base64.jomodns.com A 150.138.250.49
+
+Frame 329: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53130
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    333 56.213250      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x2e39 A t10.baidu.com
+
+Frame 333: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53136, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    334 56.213753      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x5e50 AAAA t10.baidu.com
+
+Frame 334: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53137, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    335 56.214630      219.147.1.66          10.112.218.104        DNS      106    Standard query response 0x9a80 AAAA s1.bdstatic.com CNAME wwwbaidu.jomodns.com
+
+Frame 335: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53133
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    336 56.214631      219.147.1.66          10.112.218.104        DNS      117    Standard query response 0x1f20 A t1.baidu.com CNAME simage.jomodns.com A 150.138.250.48
+
+Frame 336: 117 bytes on wire (936 bits), 117 bytes captured (936 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53134
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    338 56.215588      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x9c86 A t11.baidu.com
+
+Frame 338: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53138, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    339 56.216189      10.112.218.104        219.147.1.66          DNS      73     Standard query 0xc1b5 AAAA t11.baidu.com
+
+Frame 339: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53139, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    340 56.216584      219.147.1.66          10.112.218.104        DNS      101    Standard query response 0x539d AAAA t1.baidu.com CNAME simage.jomodns.com
+
+Frame 340: 101 bytes on wire (808 bits), 101 bytes captured (808 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53135
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    349 56.217411      10.112.218.104        219.147.1.66          DNS      73     Standard query 0xcfcc A t12.baidu.com
+
+Frame 349: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53140, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    350 56.218115      10.112.218.104        219.147.1.66          DNS      73     Standard query 0x9118 AAAA t12.baidu.com
+
+Frame 350: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53141, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    353 56.221213      219.147.1.66          10.112.218.104        DNS      118    Standard query response 0x2e39 A t10.baidu.com CNAME simage.jomodns.com A 150.138.250.48
+
+Frame 353: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53136
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    362 56.223959      219.147.1.66          10.112.218.104        DNS      102    Standard query response 0x5e50 AAAA t10.baidu.com CNAME simage.jomodns.com
+
+Frame 362: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53137
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    364 56.225211      10.112.218.104        219.147.1.66          DNS      72     Standard query 0xbb0d A t2.baidu.com
+
+Frame 364: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53142, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    367 56.226518      219.147.1.66          10.112.218.104        DNS      102    Standard query response 0xc1b5 AAAA t11.baidu.com CNAME simage.jomodns.com
+
+Frame 367: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53139
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    368 56.226518      219.147.1.66          10.112.218.104        DNS      118    Standard query response 0x9c86 A t11.baidu.com CNAME simage.jomodns.com A 150.138.250.48
+
+Frame 368: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53138
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    370 56.226709      10.112.218.104        219.147.1.66          DNS      72     Standard query 0x35a5 AAAA t2.baidu.com
+
+Frame 370: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53143, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    376 56.228576      10.112.218.104        219.147.1.66          DNS      72     Standard query 0x981b A t3.baidu.com
+
+Frame 376: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53144, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    377 56.229198      10.112.218.104        219.147.1.66          DNS      72     Standard query 0xbfef AAAA t3.baidu.com
+
+Frame 377: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 53145, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    378 56.229238      219.147.1.66          10.112.218.104        DNS      118    Standard query response 0xcfcc A t12.baidu.com CNAME simage.jomodns.com A 150.138.250.48
+
+Frame 378: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53140
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    379 56.229239      219.147.1.66          10.112.218.104        DNS      102    Standard query response 0x9118 AAAA t12.baidu.com CNAME simage.jomodns.com
+
+Frame 379: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53141
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    384 56.235851      219.147.1.66          10.112.218.104        DNS      117    Standard query response 0xbb0d A t2.baidu.com CNAME simage.jomodns.com A 150.138.250.48
+
+Frame 384: 117 bytes on wire (936 bits), 117 bytes captured (936 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53142
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    385 56.236686      219.147.1.66          10.112.218.104        DNS      101    Standard query response 0x35a5 AAAA t2.baidu.com CNAME simage.jomodns.com
+
+Frame 385: 101 bytes on wire (808 bits), 101 bytes captured (808 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53143
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    386 56.238100      219.147.1.66          10.112.218.104        DNS      101    Standard query response 0xbfef AAAA t3.baidu.com CNAME simage.jomodns.com
+
+Frame 386: 101 bytes on wire (808 bits), 101 bytes captured (808 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53145
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    486 56.320505      10.112.218.104        211.64.142.5          DNS      72     Standard query 0x744c A t3.baidu.com
+
+Frame 486: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53146, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    488 56.327577      211.64.142.5          10.112.218.104        DNS      536    Standard query response 0x744c A t3.baidu.com CNAME simage.jomodns.com A 120.221.29.48 NS e.root-servers.net NS d.root-servers.net NS g.root-servers.net NS i.root-servers.net NS l.root-servers.net NS c.root-servers.net NS b.root-servers.net NS j.root-servers.net NS m.root-servers.net NS a.root-servers.net NS f.root-servers.net NS h.root-servers.net NS k.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 488: 536 bytes on wire (4288 bits), 536 bytes captured (4288 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53146
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    489 56.377048      10.112.218.104        211.64.142.5          DNS      79     Standard query 0x4934 A clients4.google.com
+
+Frame 489: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53147, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    490 56.377915      10.112.218.104        211.64.142.5          DNS      79     Standard query 0x7374 AAAA clients4.google.com
+
+Frame 490: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53148, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    491 56.382907      211.64.142.5          10.112.218.104        DNS      367    Standard query response 0x4934 A clients4.google.com CNAME clients.l.google.com A 216.58.200.78 NS ns3.google.com NS ns1.google.com NS ns4.google.com NS ns2.google.com A 216.239.38.10 A 216.239.32.10 A 216.239.34.10 A 216.239.36.10 AAAA 2001:4860:4802:38::a AAAA 2001:4860:4802:32::a AAAA 2001:4860:4802:34::a AAAA 2001:4860:4802:36::a
+
+Frame 491: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53147
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    492 56.390221      211.64.142.5          10.112.218.104        DNS      379    Standard query response 0x7374 AAAA clients4.google.com CNAME clients.l.google.com AAAA 2404:6800:4005:803::200e NS ns2.google.com NS ns1.google.com NS ns3.google.com NS ns4.google.com A 216.239.38.10 A 216.239.32.10 A 216.239.34.10 A 216.239.36.10 AAAA 2001:4860:4802:38::a AAAA 2001:4860:4802:32::a AAAA 2001:4860:4802:34::a AAAA 2001:4860:4802:36::a
+
+Frame 492: 379 bytes on wire (3032 bits), 379 bytes captured (3032 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53148
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    597 56.504059      10.112.218.104        211.64.142.5          DNS      79     Standard query 0xd405 A clients1.google.com
+
+Frame 597: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53149, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    598 56.504726      10.112.218.104        211.64.142.5          DNS      79     Standard query 0x2be2 AAAA clients1.google.com
+
+Frame 598: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53150, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    601 56.513279      211.64.142.5          10.112.218.104        DNS      367    Standard query response 0xd405 A clients1.google.com CNAME clients.l.google.com A 216.58.200.78 NS ns3.google.com NS ns4.google.com NS ns1.google.com NS ns2.google.com A 216.239.38.10 A 216.239.32.10 A 216.239.34.10 A 216.239.36.10 AAAA 2001:4860:4802:38::a AAAA 2001:4860:4802:32::a AAAA 2001:4860:4802:34::a AAAA 2001:4860:4802:36::a
+
+Frame 601: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53149
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    602 56.513280      211.64.142.5          10.112.218.104        DNS      379    Standard query response 0x2be2 AAAA clients1.google.com CNAME clients.l.google.com AAAA 2404:6800:4005:803::200e NS ns2.google.com NS ns3.google.com NS ns1.google.com NS ns4.google.com A 216.239.38.10 A 216.239.32.10 A 216.239.34.10 A 216.239.36.10 AAAA 2001:4860:4802:38::a AAAA 2001:4860:4802:32::a AAAA 2001:4860:4802:34::a AAAA 2001:4860:4802:36::a
+
+Frame 602: 379 bytes on wire (3032 bits), 379 bytes captured (3032 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53150
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    722 57.089568      10.112.218.104        211.64.142.5          DNS      73     Standard query 0xe7c6 A ss0.baidu.com
+
+Frame 722: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53152, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    723 57.090334      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x83ee AAAA ss0.baidu.com
+
+Frame 723: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53153, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    724 57.091468      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x0ca2 A ss1.baidu.com
+
+Frame 724: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53154, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    725 57.092145      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x7396 AAAA ss1.baidu.com
+
+Frame 725: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53155, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    726 57.093191      10.112.218.104        211.64.142.5          DNS      73     Standard query 0xe6a1 A ss2.baidu.com
+
+Frame 726: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53156, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    727 57.093882      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x0f6c AAAA ss2.baidu.com
+
+Frame 727: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53157, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    729 57.118191      211.64.142.5          10.112.218.104        DNS      539    Standard query response 0xe7c6 A ss0.baidu.com CNAME sslbaidu.jomodns.com A 120.221.136.33 NS f.root-servers.net NS j.root-servers.net NS h.root-servers.net NS a.root-servers.net NS g.root-servers.net NS c.root-servers.net NS m.root-servers.net NS e.root-servers.net NS l.root-servers.net NS k.root-servers.net NS d.root-servers.net NS i.root-servers.net NS b.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 729: 539 bytes on wire (4312 bits), 539 bytes captured (4312 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53152
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    730 57.118847      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x724a A ss3.baidu.com
+
+Frame 730: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53158, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    731 57.122784      211.64.142.5          10.112.218.104        DNS      539    Standard query response 0x0ca2 A ss1.baidu.com CNAME sslbaidu.jomodns.com A 120.221.136.33 NS m.root-servers.net NS j.root-servers.net NS c.root-servers.net NS e.root-servers.net NS k.root-servers.net NS a.root-servers.net NS b.root-servers.net NS i.root-servers.net NS d.root-servers.net NS g.root-servers.net NS f.root-servers.net NS h.root-servers.net NS l.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 731: 539 bytes on wire (4312 bits), 539 bytes captured (4312 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53154
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    732 57.122785      211.64.142.5          10.112.218.104        DNS      539    Standard query response 0xe6a1 A ss2.baidu.com CNAME sslbaidu.jomodns.com A 120.221.136.33 NS a.root-servers.net NS b.root-servers.net NS f.root-servers.net NS k.root-servers.net NS g.root-servers.net NS d.root-servers.net NS j.root-servers.net NS e.root-servers.net NS m.root-servers.net NS l.root-servers.net NS h.root-servers.net NS i.root-servers.net NS c.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 732: 539 bytes on wire (4312 bits), 539 bytes captured (4312 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53156
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    733 57.123352      10.112.218.104        211.64.142.5          DNS      73     Standard query 0x8a11 AAAA ss3.baidu.com
+
+Frame 733: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 53159, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    734 57.136030      211.64.142.5          10.112.218.104        DNS      104    Standard query response 0x83ee AAAA ss0.baidu.com CNAME sslbaidu.jomodns.com
+
+Frame 734: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53153
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    735 57.136031      211.64.142.5          10.112.218.104        DNS      104    Standard query response 0x0f6c AAAA ss2.baidu.com CNAME sslbaidu.jomodns.com
+
+Frame 735: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53157
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    736 57.136032      211.64.142.5          10.112.218.104        DNS      104    Standard query response 0x7396 AAAA ss1.baidu.com CNAME sslbaidu.jomodns.com
+
+Frame 736: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53155
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    740 57.140464      211.64.142.5          10.112.218.104        DNS      539    Standard query response 0x724a A ss3.baidu.com CNAME sslbaidu.jomodns.com A 120.221.136.33 NS i.root-servers.net NS f.root-servers.net NS e.root-servers.net NS a.root-servers.net NS g.root-servers.net NS h.root-servers.net NS c.root-servers.net NS l.root-servers.net NS k.root-servers.net NS d.root-servers.net NS j.root-servers.net NS m.root-servers.net NS b.root-servers.net A 198.97.190.53 A 192.33.4.12 A 192.203.230.10 A 192.112.36.4 A 199.7.83.42 A 199.7.91.13 A 198.41.0.4 A 193.0.14.129 A 192.228.79.201 A 202.12.27.33 A 192.36.148.17 A 192.5.5.241 A 192.58.128.30
+
+Frame 740: 539 bytes on wire (4312 bits), 539 bytes captured (4312 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53158
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    741 57.170892      211.64.142.5          10.112.218.104        DNS      104    Standard query response 0x8a11 AAAA ss3.baidu.com CNAME sslbaidu.jomodns.com
+
+Frame 741: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 53159
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    862 62.754930      10.112.218.104        211.64.142.5          DNS      71     Standard query 0x4038 A q4.qlogo.cn
+
+Frame 862: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 64458, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    863 62.756172      10.112.218.104        211.64.142.5          DNS      71     Standard query 0x7e6a AAAA q4.qlogo.cn
+
+Frame 863: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 56478, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    866 62.769191      211.64.142.5          10.112.218.104        DNS      281    Standard query response 0x4038 A q4.qlogo.cn CNAME q.qlogo.cn A 180.97.9.18 A 180.97.8.120 A 180.97.8.111 NS ns-tel2.qq.com NS ns-tel1.qq.com A 123.151.66.83 A 183.2.186.153 A 101.89.19.164 A 123.151.66.83 A 183.2.186.153 A 101.89.19.164
+
+Frame 866: 281 bytes on wire (2248 bits), 281 bytes captured (2248 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 64458
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    867 62.775139      10.112.218.104        211.64.142.5          DNS      71     Standard query 0x4acd A q4.qlogo.cn
+
+Frame 867: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 61540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    868 62.784681      211.64.142.5          10.112.218.104        DNS      281    Standard query response 0x4acd A q4.qlogo.cn CNAME q.qlogo.cn A 180.97.8.111 A 180.97.8.120 A 180.97.9.18 NS ns-tel1.qq.com NS ns-tel2.qq.com A 183.2.186.153 A 101.89.19.164 A 123.151.66.83 A 183.2.186.153 A 101.89.19.164 A 123.151.66.83
+
+Frame 868: 281 bytes on wire (2248 bits), 281 bytes captured (2248 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 61540
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    869 62.946986      211.64.142.5          10.112.218.104        DNS      71     Standard query response 0x7e6a Server failure AAAA q4.qlogo.cn
+
+Frame 869: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 56478
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    870 62.947920      10.112.218.104        219.147.1.66          DNS      71     Standard query 0x7e6a AAAA q4.qlogo.cn
+
+Frame 870: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 219.147.1.66
+User Datagram Protocol, Src Port: 56478, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    871 62.955113      219.147.1.66          10.112.218.104        DNS      71     Standard query response 0x7e6a AAAA q4.qlogo.cn
+
+Frame 871: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 219.147.1.66, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 56478
+Domain Name System (response)

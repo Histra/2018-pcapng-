@@ -1,0 +1,89 @@
+No.     Time           Source                Destination           Protocol Length Info
+     66 28.035191      10.112.218.104        211.64.142.5          DNS      85     Standard query 0x0001 PTR 5.142.64.211.in-addr.arpa
+
+Frame 66: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 57380, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 28.040530      211.64.142.5          10.112.218.104        DNS      148    Standard query response 0x0001 No such name PTR 5.142.64.211.in-addr.arpa SOA dns17.ouc.edu.cn
+
+Frame 67: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 57380
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 28.069493      10.112.218.104        211.64.142.5          DNS      85     Standard query 0xb009 A 5.142.64.211.in-addr.arpa
+
+Frame 68: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 60874, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 28.078656      211.64.142.5          10.112.218.104        DNS      148    Standard query response 0xb009 No such name A 5.142.64.211.in-addr.arpa SOA dns17.ouc.edu.cn
+
+Frame 69: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 60874
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 28.127086      10.112.218.104        211.64.142.5          DNS      74     Standard query 0x0002 A www.ouc.edu.cn
+
+Frame 72: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 57381, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 28.131043      211.64.142.5          10.112.218.104        DNS      194    Standard query response 0x0002 A www.ouc.edu.cn A 211.64.142.153 NS dns2.ouc.edu.cn NS dns.ouc.edu.cn NS dns3.ouc.edu.cn A 211.64.142.7 A 211.64.142.6 A 211.64.144.130
+
+Frame 73: 194 bytes on wire (1552 bits), 194 bytes captured (1552 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 57381
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 28.134614      10.112.218.104        211.64.142.5          DNS      74     Standard query 0x0003 AAAA www.ouc.edu.cn
+
+Frame 74: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 60875, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 28.140183      211.64.142.5          10.112.218.104        DNS      206    Standard query response 0x0003 AAAA www.ouc.edu.cn AAAA 2001:da8:7013:8104::a044 NS dns2.ouc.edu.cn NS dns.ouc.edu.cn NS dns3.ouc.edu.cn A 211.64.142.7 A 211.64.142.6 A 211.64.144.130
+
+Frame 75: 206 bytes on wire (1648 bits), 206 bytes captured (1648 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 60875
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 28.180127      10.112.218.104        211.64.142.5          DNS      74     Standard query 0xab85 A www.ouc.edu.cn
+
+Frame 77: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 211.64.142.5
+User Datagram Protocol, Src Port: 59363, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 28.185995      211.64.142.5          10.112.218.104        DNS      194    Standard query response 0xab85 A www.ouc.edu.cn A 211.64.142.153 NS dns.ouc.edu.cn NS dns2.ouc.edu.cn NS dns3.ouc.edu.cn A 211.64.142.7 A 211.64.142.6 A 211.64.144.130
+
+Frame 78: 194 bytes on wire (1552 bits), 194 bytes captured (1552 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 211.64.142.5, Dst: 10.112.218.104
+User Datagram Protocol, Src Port: 53, Dst Port: 59363
+Domain Name System (response)

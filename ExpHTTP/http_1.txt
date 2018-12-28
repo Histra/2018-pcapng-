@@ -1,0 +1,27 @@
+No.     Time           Source                Destination           Protocol Length Info
+    539 53.375380      10.112.218.104        62.234.120.220        HTTP     464    GET /lab_upload/test/test1.php HTTP/1.1 
+
+Frame 539: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 62.234.120.220
+Transmission Control Protocol, Src Port: 57790, Dst Port: 80, Seq: 1, Ack: 1, Len: 410
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    540 53.395340      62.234.120.220        10.112.218.104        HTTP     809    HTTP/1.1 200 OK  (text/html)
+
+Frame 540: 809 bytes on wire (6472 bits), 809 bytes captured (6472 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 62.234.120.220, Dst: 10.112.218.104
+Transmission Control Protocol, Src Port: 80, Dst Port: 57790, Seq: 1, Ack: 411, Len: 755
+Hypertext Transfer Protocol
+Line-based text data: text/html (11 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    542 53.469904      10.112.218.104        62.234.120.220        HTTP     432    GET /favicon.ico HTTP/1.1 
+
+Frame 542: 432 bytes on wire (3456 bits), 432 bytes captured (3456 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 62.234.120.220
+Transmission Control Protocol, Src Port: 57790, Dst Port: 80, Seq: 411, Ack: 756, Len: 378
+Hypertext Transfer Protocol

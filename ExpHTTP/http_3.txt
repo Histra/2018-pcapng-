@@ -1,0 +1,257 @@
+No.     Time           Source                Destination           Protocol Length Info
+     74 7.016057       10.112.218.104        62.234.120.220        HTTP     464    GET /lab_upload/test/test3.php HTTP/1.1 
+
+Frame 74: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 62.234.120.220
+Transmission Control Protocol, Src Port: 60157, Dst Port: 80, Seq: 1, Ack: 1, Len: 410
+Hypertext Transfer Protocol
+    GET /lab_upload/test/test3.php HTTP/1.1\r\n
+    Host: 62.234.120.220\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3514.0 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n
+    \r\n
+    [Full request URI: http://62.234.120.220/lab_upload/test/test3.php]
+    [HTTP request 1/2]
+    [Response in frame: 81]
+    [Next request in frame: 83]
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 7.059919       62.234.120.220        10.112.218.104        HTTP     223    HTTP/1.1 200 OK  (text/html)
+
+Frame 81: 223 bytes on wire (1784 bits), 223 bytes captured (1784 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 62.234.120.220, Dst: 10.112.218.104
+Transmission Control Protocol, Src Port: 80, Dst Port: 60157, Seq: 4273, Ack: 411, Len: 169
+[4 Reassembled TCP Segments (4441 bytes): #77(1424), #78(1424), #80(1424), #81(169)]
+    [Frame: 77, payload: 0-1423 (1424 bytes)]
+    [Frame: 78, payload: 1424-2847 (1424 bytes)]
+    [Frame: 80, payload: 2848-4271 (1424 bytes)]
+    [Frame: 81, payload: 4272-4440 (169 bytes)]
+    [Segment count: 4]
+    [Reassembled TCP length: 4441]
+    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a446174653a2057...]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Wed, 26 Dec 2018 11:48:57 GMT\r\n
+    Server: Apache/2.4.9 (Win32) PHP/5.5.12\r\n
+    X-Powered-By: PHP/5.5.12\r\n
+    Content-Length: 4215\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.043862000 seconds]
+    [Request in frame: 74]
+    [Next request in frame: 83]
+    [Next response in frame: 313]
+    File Data: 4215 bytes
+Line-based text data: text/html (51 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 7.203644       10.112.218.104        62.234.120.220        HTTP     432    GET /favicon.ico HTTP/1.1 
+
+Frame 83: 432 bytes on wire (3456 bits), 432 bytes captured (3456 bits) on interface 0
+Ethernet II, Src: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5), Dst: Hangzhou_53:00:02 (74:1f:4a:53:00:02)
+Internet Protocol Version 4, Src: 10.112.218.104, Dst: 62.234.120.220
+Transmission Control Protocol, Src Port: 60157, Dst Port: 80, Seq: 411, Ack: 4442, Len: 378
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: 62.234.120.220\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3514.0 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://62.234.120.220/lab_upload/test/test3.php\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n
+    \r\n
+    [Full request URI: http://62.234.120.220/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 74]
+    [Response in frame: 313]
+
+No.     Time           Source                Destination           Protocol Length Info
+    313 7.777806       62.234.120.220        10.112.218.104        HTTP     722    HTTP/1.1 200 OK  (image/x-icon)
+
+Frame 313: 722 bytes on wire (5776 bits), 722 bytes captured (5776 bits) on interface 0
+Ethernet II, Src: Hangzhou_53:00:02 (74:1f:4a:53:00:02), Dst: IntelCor_c4:cc:a5 (68:07:15:c4:cc:a5)
+Internet Protocol Version 4, Src: 62.234.120.220, Dst: 10.112.218.104
+Transmission Control Protocol, Src Port: 80, Dst Port: 60157, Seq: 206650, Ack: 789, Len: 668
+[150 Reassembled TCP Segments (202876 bytes): #84(1424), #85(1424), #86(1424), #87(1424), #88(1424), #103(1424), #114(1424), #104(1424), #115(1424), #105(1424), #116(1424), #106(1424), #117(796), #118(628), #94(1424), #95(1424), #96(1424), ]
+    [Frame: 84, payload: 0-1423 (1424 bytes)]
+    [Frame: 85, payload: 1424-2847 (1424 bytes)]
+    [Frame: 86, payload: 2848-4271 (1424 bytes)]
+    [Frame: 87, payload: 4272-5695 (1424 bytes)]
+    [Frame: 88, payload: 5696-7119 (1424 bytes)]
+    [Frame: 103, payload: 7120-8543 (1424 bytes)]
+    [Frame: 114, payload: 7120-8543 (1424 bytes)]
+    [Frame: 104, payload: 8544-9967 (1424 bytes)]
+    [Frame: 115, payload: 8544-9967 (1424 bytes)]
+    [Frame: 105, payload: 9968-11391 (1424 bytes)]
+    [Frame: 116, payload: 9968-11391 (1424 bytes)]
+    [Frame: 106, payload: 11392-12815 (1424 bytes)]
+    [Frame: 117, payload: 11392-12187 (796 bytes)]
+    [Frame: 118, payload: 12188-12815 (628 bytes)]
+    [Frame: 94, payload: 12816-14239 (1424 bytes)]
+    [Frame: 95, payload: 14240-15663 (1424 bytes)]
+    [Frame: 96, payload: 15664-17087 (1424 bytes)]
+    [Frame: 97, payload: 17088-18511 (1424 bytes)]
+    [Frame: 102, payload: 18512-19935 (1424 bytes)]
+    [Frame: 112, payload: 19936-21359 (1424 bytes)]
+    [Frame: 113, payload: 21360-22783 (1424 bytes)]
+    [Frame: 119, payload: 22784-24207 (1424 bytes)]
+    [Frame: 134, payload: 22784-24207 (1424 bytes)]
+    [Frame: 129, payload: 24208-25631 (1424 bytes)]
+    [Frame: 130, payload: 25632-27055 (1424 bytes)]
+    [Frame: 131, payload: 27056-28479 (1424 bytes)]
+    [Frame: 136, payload: 28480-29903 (1424 bytes)]
+    [Frame: 137, payload: 29904-31327 (1424 bytes)]
+    [Frame: 140, payload: 31328-32751 (1424 bytes)]
+    [Frame: 141, payload: 32752-34175 (1424 bytes)]
+    [Frame: 142, payload: 34176-35599 (1424 bytes)]
+    [Frame: 147, payload: 35600-37023 (1424 bytes)]
+    [Frame: 148, payload: 37024-38447 (1424 bytes)]
+    [Frame: 149, payload: 38448-39871 (1424 bytes)]
+    [Frame: 150, payload: 39872-41295 (1424 bytes)]
+    [Frame: 157, payload: 41296-42719 (1424 bytes)]
+    [Frame: 158, payload: 42720-44143 (1424 bytes)]
+    [Frame: 159, payload: 44144-45567 (1424 bytes)]
+    [Frame: 160, payload: 45568-46991 (1424 bytes)]
+    [Frame: 162, payload: 46992-48415 (1424 bytes)]
+    [Frame: 164, payload: 48416-49839 (1424 bytes)]
+    [Frame: 165, payload: 49840-51263 (1424 bytes)]
+    [Frame: 166, payload: 51264-52687 (1424 bytes)]
+    [Frame: 167, payload: 52688-54111 (1424 bytes)]
+    [Frame: 170, payload: 54112-55535 (1424 bytes)]
+    [Frame: 169, payload: 55536-56959 (1424 bytes)]
+    [Frame: 173, payload: 56960-58383 (1424 bytes)]
+    [Frame: 174, payload: 58384-59807 (1424 bytes)]
+    [Frame: 175, payload: 59808-61231 (1424 bytes)]
+    [Frame: 176, payload: 61232-62655 (1424 bytes)]
+    [Frame: 178, payload: 62656-64079 (1424 bytes)]
+    [Frame: 179, payload: 64080-65503 (1424 bytes)]
+    [Frame: 181, payload: 65504-66927 (1424 bytes)]
+    [Frame: 182, payload: 66928-68351 (1424 bytes)]
+    [Frame: 183, payload: 68352-69775 (1424 bytes)]
+    [Frame: 184, payload: 69776-71199 (1424 bytes)]
+    [Frame: 186, payload: 71200-72623 (1424 bytes)]
+    [Frame: 187, payload: 72624-74047 (1424 bytes)]
+    [Frame: 188, payload: 74048-75471 (1424 bytes)]
+    [Frame: 191, payload: 75472-76895 (1424 bytes)]
+    [Frame: 192, payload: 76896-78319 (1424 bytes)]
+    [Frame: 193, payload: 78320-79743 (1424 bytes)]
+    [Frame: 194, payload: 79744-81167 (1424 bytes)]
+    [Frame: 196, payload: 81168-82591 (1424 bytes)]
+    [Frame: 198, payload: 82592-84015 (1424 bytes)]
+    [Frame: 199, payload: 84016-85439 (1424 bytes)]
+    [Frame: 200, payload: 85440-86863 (1424 bytes)]
+    [Frame: 202, payload: 86864-88287 (1424 bytes)]
+    [Frame: 203, payload: 88288-89711 (1424 bytes)]
+    [Frame: 204, payload: 89712-91135 (1424 bytes)]
+    [Frame: 205, payload: 91136-92559 (1424 bytes)]
+    [Frame: 207, payload: 92560-93983 (1424 bytes)]
+    [Frame: 208, payload: 93984-95407 (1424 bytes)]
+    [Frame: 210, payload: 95408-96831 (1424 bytes)]
+    [Frame: 211, payload: 96832-98255 (1424 bytes)]
+    [Frame: 212, payload: 98256-99679 (1424 bytes)]
+    [Frame: 214, payload: 99680-101103 (1424 bytes)]
+    [Frame: 215, payload: 101104-102527 (1424 bytes)]
+    [Frame: 216, payload: 102528-103951 (1424 bytes)]
+    [Frame: 217, payload: 103952-105375 (1424 bytes)]
+    [Frame: 218, payload: 105376-106799 (1424 bytes)]
+    [Frame: 223, payload: 106800-108223 (1424 bytes)]
+    [Frame: 230, payload: 106800-108223 (1424 bytes)]
+    [Frame: 219, payload: 108224-109647 (1424 bytes)]
+    [Frame: 220, payload: 109648-111071 (1424 bytes)]
+    [Frame: 221, payload: 111072-112495 (1424 bytes)]
+    [Frame: 222, payload: 112496-113919 (1424 bytes)]
+    [Frame: 231, payload: 113920-115343 (1424 bytes)]
+    [Frame: 229, payload: 115344-116767 (1424 bytes)]
+    [Frame: 232, payload: 116768-118191 (1424 bytes)]
+    [Frame: 237, payload: 118192-119615 (1424 bytes)]
+    [Frame: 238, payload: 119616-121039 (1424 bytes)]
+    [Frame: 239, payload: 121040-122463 (1424 bytes)]
+    [Frame: 240, payload: 122464-123887 (1424 bytes)]
+    [Frame: 241, payload: 123888-125311 (1424 bytes)]
+    [Frame: 243, payload: 125312-126735 (1424 bytes)]
+    [Frame: 244, payload: 126736-128159 (1424 bytes)]
+    [Frame: 245, payload: 128160-129583 (1424 bytes)]
+    [Frame: 246, payload: 129584-131007 (1424 bytes)]
+    [Frame: 248, payload: 131008-132431 (1424 bytes)]
+    [Frame: 249, payload: 132432-133855 (1424 bytes)]
+    [Frame: 251, payload: 133856-135279 (1424 bytes)]
+    [Frame: 252, payload: 135280-136703 (1424 bytes)]
+    [Frame: 253, payload: 136704-138127 (1424 bytes)]
+    [Frame: 254, payload: 138128-139551 (1424 bytes)]
+    [Frame: 256, payload: 139552-140975 (1424 bytes)]
+    [Frame: 257, payload: 140976-142399 (1424 bytes)]
+    [Frame: 258, payload: 142400-143823 (1424 bytes)]
+    [Frame: 260, payload: 143824-145247 (1424 bytes)]
+    [Frame: 261, payload: 145248-146671 (1424 bytes)]
+    [Frame: 262, payload: 146672-148095 (1424 bytes)]
+    [Frame: 263, payload: 148096-149519 (1424 bytes)]
+    [Frame: 265, payload: 149520-150943 (1424 bytes)]
+    [Frame: 266, payload: 150944-152367 (1424 bytes)]
+    [Frame: 267, payload: 152368-153791 (1424 bytes)]
+    [Frame: 268, payload: 153792-155215 (1424 bytes)]
+    [Frame: 270, payload: 155216-156639 (1424 bytes)]
+    [Frame: 271, payload: 156640-158063 (1424 bytes)]
+    [Frame: 272, payload: 158064-159487 (1424 bytes)]
+    [Frame: 273, payload: 159488-160911 (1424 bytes)]
+    [Frame: 275, payload: 160912-162335 (1424 bytes)]
+    [Frame: 276, payload: 162336-163759 (1424 bytes)]
+    [Frame: 277, payload: 163760-165183 (1424 bytes)]
+    [Frame: 278, payload: 165184-166607 (1424 bytes)]
+    [Frame: 279, payload: 166608-168031 (1424 bytes)]
+    [Frame: 283, payload: 168032-169455 (1424 bytes)]
+    [Frame: 284, payload: 169456-170879 (1424 bytes)]
+    [Frame: 285, payload: 170880-172303 (1424 bytes)]
+    [Frame: 281, payload: 172304-173727 (1424 bytes)]
+    [Frame: 289, payload: 173728-175151 (1424 bytes)]
+    [Frame: 290, payload: 175152-176575 (1424 bytes)]
+    [Frame: 291, payload: 176576-177999 (1424 bytes)]
+    [Frame: 292, payload: 178000-179423 (1424 bytes)]
+    [Frame: 293, payload: 179424-180847 (1424 bytes)]
+    [Frame: 295, payload: 180848-182271 (1424 bytes)]
+    [Frame: 296, payload: 182272-183695 (1424 bytes)]
+    [Frame: 297, payload: 183696-185119 (1424 bytes)]
+    [Frame: 298, payload: 185120-186543 (1424 bytes)]
+    [Frame: 299, payload: 186544-187967 (1424 bytes)]
+    [Frame: 301, payload: 187968-189391 (1424 bytes)]
+    [Frame: 302, payload: 189392-190815 (1424 bytes)]
+    [Frame: 303, payload: 190816-192239 (1424 bytes)]
+    [Frame: 304, payload: 192240-193663 (1424 bytes)]
+    [Frame: 305, payload: 193664-195087 (1424 bytes)]
+    [Frame: 307, payload: 195088-196511 (1424 bytes)]
+    [Frame: 308, payload: 196512-197935 (1424 bytes)]
+    [Frame: 309, payload: 197936-199359 (1424 bytes)]
+    [Frame: 310, payload: 199360-200783 (1424 bytes)]
+    [Frame: 312, payload: 200784-202207 (1424 bytes)]
+    [Frame: 313, payload: 202208-202875 (668 bytes)]
+    [Segment count: 150]
+    [Reassembled TCP length: 202876]
+    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a446174653a2057...]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Wed, 26 Dec 2018 11:48:57 GMT\r\n
+    Server: Apache/2.4.9 (Win32) PHP/5.5.12\r\n
+    Last-Modified: Fri, 31 Dec 2010 01:40:06 GMT\r\n
+    ETag: "3174f-498aae1bd8980"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 202575\r\n
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/x-icon\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.574162000 seconds]
+    [Prev request in frame: 74]
+    [Prev response in frame: 81]
+    [Request in frame: 83]
+    File Data: 202575 bytes
+Media Type
